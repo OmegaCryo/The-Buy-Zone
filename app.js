@@ -126,3 +126,8 @@ form.addEventListener("submit", async (e) => {
     loadingDiv.style.display = "none";
   }
 });
+
+//Validates input
+function isValidNumber(value) {
+  return value !== "" && !isNaN(value) && Number(value) >= 0;
+}
