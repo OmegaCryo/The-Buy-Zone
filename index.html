@@ -23,15 +23,19 @@
     <div class="error" id="error"></div>
 
     <div class="results" id="results">
-      <p>Ticker: <span id="result-symbol"></span></p>
-      <p>Current Price: $<span id="result-price"></span></p>
-      <p>Current High: $<span id="result-high"></span></p>
-      <p>6-Month Low: $<span id="result-low"></span></p>
-
+      <div class="top-results">
+        <p>Ticker: <span id="result-symbol"></span></p>
+        <p>Current Price: $<span id="result-price"></span></p>
+      </div>
+      <div class="top-results">
+        <p>Current High: $<span id="result-high"></span></p>
+        <p>6-Month Low: $<span id="result-low"></span></p>
+      </div>
       <hr />
-
-      <p>Buy Zone 1 (Moderate): $<span id="result-zone1"></span></p>
-      <p>Buy Zone 2 (Aggressive): $<span id="result-zone2"></span></p>
+      <div class="bottom-results">
+        <p>Buy Zone 1 (Moderate): $<span id="result-zone1"></span></p>
+        <p>Buy Zone 2 (Aggressive): $<span id="result-zone2"></span></p>
+      </div>
     </div>
     <script src="config.js"></script>
     <script src="app.js"></script>
