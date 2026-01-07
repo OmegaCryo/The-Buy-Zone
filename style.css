@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+nav a {
+  margin: 5px;
+  text-decoration: none;
+}
+.form-container,
+.error {
+  display: flex;
+  justify-content: center;
+}
+.error {
+  margin: 10px;
+}
+.results {
+  border: 2px solid black;
+  padding: 10px;
+}
