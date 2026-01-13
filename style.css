@@ -1,1 +1,28 @@
-
+nav {
+  display: flex;
+  flex-direction: row-reverse;
+}
+nav a {
+  margin: 5px;
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+.results {
+  margin: 45px auto;
+  width: 450px;
+  border: 2px solid black;
+}
+.top-results {
+  display: flex;
+  justify-content: space-evenly;
+}
+.bottom-results {
+  display: flex;
+  justify-content: space-evenly;
+}
