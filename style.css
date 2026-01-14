@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
+* {
+  font-family: "Montserrat", sans-serif;
+}
 nav {
   display: flex;
   flex-direction: row-reverse;
@@ -9,9 +11,18 @@ nav a {
   text-decoration: none;
 }
 h1 {
+  font-weight: 800;
+  font-size: 60px;
+  margin-bottom: 0;
+}
+.header-div {
   text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+}
+.header-div p {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 .error {
   text-align: center;
@@ -20,6 +31,9 @@ h1 {
 .form-container {
   display: flex;
   justify-content: center;
+}
+input {
+  padding: 5px;
 }
 .results {
   margin: 45px auto;
