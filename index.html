@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <title>Stock Buy Zone Calculator</title>
   </head>
   <body>
@@ -17,9 +21,14 @@
     </div>
     <div class="form-container" id="form-container">
       <form id="stock-form">
-        <label for="ticker">Ticker Symbol</label><br />
-        <input type="text" id="ticker" placeholder="AAPL" required />
-        <button type="submit">Caculate</button>
+        <div class="input-container">
+          <label for="ticker">Ticker Symbol</label><br />
+          <span class="material-icons">search</span>
+          <input type="text" id="ticker" placeholder="AAPL" required />
+        </div>
+        <div class="button-container" id="button-container">
+          <button type="submit">Caculate</button>
+        </div>
       </form>
     </div>
     <div class="loading" id="loading" style="display: none">Loading...</div>
