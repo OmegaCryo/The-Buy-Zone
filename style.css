@@ -13,6 +13,7 @@ nav {
   margin: 40px;
   padding: 20px;
   font-family: "Fira Code", monospace;
+  font-weight: lighter;
 }
 nav a {
   margin: 5px;
@@ -21,28 +22,26 @@ nav a {
 }
 nav a:hover {
   text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
 }
 h1 {
   font-weight: 800;
-  font-size: 60px;
-  margin-bottom: 0;
+  font-size: 100px;
   font-family: "Libre Baskerville", serif;
 }
-p {
-  font-family: "Fira Code", monospace;
-}
+
 hr {
-  color: #9a9a9a;
-  border: 1px solid;
-  opacity: 0.1;
+  border: 1px solid #dddddd;
+  margin: 60px auto;
+  width: 600px;
 }
+
 .header-div {
   text-align: center;
-}
-.header-div p {
-  text-align: center;
-  margin-bottom: 40px;
-  font-weight: 500;
+  margin: 40px;
+  font-family: "Fira Code", monospace;
+  font-size: 20px;
 }
 .error,
 .loading {
@@ -52,9 +51,6 @@ hr {
 .form-container {
   display: flex;
   justify-content: center;
-}
-.ticker-symbol {
-  color: #9a9a9a;
 }
 .input-container {
   position: relative;
@@ -80,12 +76,16 @@ hr {
 }
 button {
   margin: 40px;
-  padding: 10px;
+  padding: 20px;
   width: 200px;
+  border: 2px solid #dddddd;
+  text-transform: uppercase;
 }
 .results {
   margin: 45px auto;
-  width: 600px;
+  width: 800px;
+  border: 2px solid #dddddd;
+  padding: 15px;
 }
 .top-results {
   display: flex;
