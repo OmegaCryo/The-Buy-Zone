@@ -110,7 +110,25 @@ button:hover {
   margin-top: 15px;
 }
 .resource-container {
-  margin: 25px;
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}
+.resource-container h2 {
+  margin-bottom: 10px;
+}
+.resource-link:hover {
+  color: #34c759;
+}
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin: 20px auto;
+  width: 800px;
+}
+footer p {
+  color: #7e7e7e;
+  font-family: sans-serif;
 }
 #result-symbol {
   font-size: 20px;
