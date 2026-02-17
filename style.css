@@ -37,6 +37,10 @@ hr {
   width: 600px;
 }
 
+label {
+  font-family: sans-serif;
+}
+
 .header-div {
   text-align: center;
   margin: 40px;
@@ -86,6 +90,7 @@ button {
   width: 800px;
   border: 2px solid #dddddd;
   padding: 15px;
+  font-family: sans-serif;
 }
 .top-results {
   display: flex;
