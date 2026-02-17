@@ -24,6 +24,7 @@ nav a:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 6px;
+  text-decoration-color: #34c759;
 }
 h1 {
   font-weight: 800;
@@ -51,6 +52,9 @@ label {
 .loading {
   text-align: center;
   margin-top: 20px;
+}
+.text-color {
+  color: #34c759;
 }
 .form-container {
   display: flex;
@@ -82,8 +86,11 @@ button {
   margin: 40px;
   padding: 20px;
   width: 200px;
-  border: 2px solid #dddddd;
+  border: 2px solid #34c759;
   text-transform: uppercase;
+}
+button:hover {
+  background: #34c759;
 }
 .results {
   margin: 45px auto;
