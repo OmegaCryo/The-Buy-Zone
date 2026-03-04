@@ -10,3 +10,9 @@ A buy zone in stocks refers to a price range or condition where a stock is consi
 
 1. Enter a stock tickect symbol in the search bar
 2. Click caculate to determine the best zone.
+
+### Coming Soon
+
+About page
+
+Resource Page
