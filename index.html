@@ -11,16 +11,19 @@
     <title>Stock Buy Zone Calculator</title>
   </head>
   <body>
+    <!---NAVIGATION-->
     <nav>
       <a href="index.html">Home</a>
       <a href="#"> About</a>
       <a href="resources.html"> Resources</a>
     </nav>
+    <!--HEADER-->
     <div class="header-div">
       <h1>Buy Zone <span class="text-color">Calculator</span></h1>
       <p>Enter the stock symbol, caculate the best buy zone.</p>
     </div>
     <hr />
+    <!--INPUT FORM-->
     <div class="form-container" id="form-container">
       <form id="stock-form">
         <div class="input-container">
@@ -33,9 +36,10 @@
         </div>
       </form>
     </div>
+    <!--LOADING & ERROR -->
     <div class="loading" id="loading" style="display: none">Loading...</div>
     <div class="error" id="error"></div>
-
+    <!--RESULTS-->
     <div class="results" id="results" style="display: none">
       <h4>Results</h4>
       <div class="top-results">
@@ -51,8 +55,9 @@
         <p>Buy Zone 2 (Aggressive): $<span id="result-zone2"></span></p>
       </div>
     </div>
+    <!---FOOTER-->
     <footer>
-      <p>Last update March 4th, 2026</p>
+      <p>Last update March 9th, 2026</p>
     </footer>
     <script src="config.js"></script>
     <script src="app.js"></script>
