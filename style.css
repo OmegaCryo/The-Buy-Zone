@@ -10,14 +10,14 @@
 nav {
   display: flex;
   justify-content: flex-end;
-  margin: 40px;
-  padding: 20px;
+  margin: 2.5rem;
+  padding: 1.25rem;
   font-family: "Fira Code", monospace;
   font-weight: lighter;
 }
 nav a {
-  margin: 5px;
-  padding: 15px;
+  margin: 0.313rem;
+  padding: 0.938rem;
   text-decoration: none;
 }
 nav a:hover {
@@ -28,13 +28,13 @@ nav a:hover {
 }
 h1 {
   font-weight: 800;
-  font-size: 100px;
+  font-size: 6.25rem;
   font-family: "Libre Baskerville", serif;
 }
 
 hr {
   border: 1px solid #dddddd;
-  margin: 60px auto;
+  margin: 3.75rem auto;
   width: 600px;
 }
 
@@ -44,14 +44,14 @@ label {
 
 .header-div {
   text-align: center;
-  margin: 40px;
+  margin: 2.5rem;
   font-family: "Fira Code", monospace;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .error,
 .loading {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 .text-color {
   color: #34c759;
@@ -74,8 +74,8 @@ label {
 .input-container input {
   width: 100%;
   padding: 10px 10px 10px 40px; /* space for icon */
-  font-size: 16px;
-  margin-top: 10px;
+  font-size: 1rem;
+  margin-top: 0.625rem;
   border-radius: 15px;
 }
 .button-container {
@@ -83,8 +83,8 @@ label {
   justify-content: center;
 }
 button {
-  margin: 40px;
-  padding: 20px;
+  margin: 2.5rem;
+  padding: 1.25rem;
   width: 200px;
   border: 2px solid #34c759;
   text-transform: uppercase;
@@ -93,21 +93,21 @@ button:hover {
   background: #34c759;
 }
 .results {
-  margin: 45px auto;
+  margin: 2.813rem auto;
   width: 800px;
   border: 2px solid #dddddd;
-  padding: 15px;
+  padding: 0.938rem;
   font-family: sans-serif;
 }
 .top-results {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 15px;
+  margin-bottom: 0.938rem;
 }
 .bottom-results {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 15px;
+  margin-top: 0.938;
 }
 .resource-container {
   margin: 0 auto;
@@ -115,15 +115,15 @@ button:hover {
   text-align: center;
 }
 .resource-container h2 {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 .resource-link:hover {
   color: #34c759;
 }
 footer {
   text-align: center;
-  font-size: 14px;
-  margin: 20px auto;
+  font-size: 0.875rem;
+  margin: 1.25rem auto;
   width: 800px;
 }
 footer p {
@@ -131,7 +131,7 @@ footer p {
   font-family: sans-serif;
 }
 #result-symbol {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 #result-symbol,
 #result-price,
